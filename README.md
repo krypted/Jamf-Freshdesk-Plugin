@@ -1,10 +1,10 @@
-# Jamf|PRO
+# Jamf Freshdesk Plugin
 
-## Desccription
+## Description
 
-FreshDesk application to get the Computer / Mobile Device details from Jamf|PRO
+FreshDesk application to get the Computer / Mobile Device details from Jamf | PRO. Install this Plugin in Freshdesk so you can get data about devices in Jamf Pro directly from within Freshdesk. 
 
-### Folder structure explained
+### Folder structure
 
     .
     ├── README.md                  This file
