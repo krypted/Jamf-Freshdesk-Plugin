@@ -1,0 +1,12 @@
+.logo {
+  background: url('jamf_logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #434a54;
+  height: 25px;
+  margin-top: 25px;
+}
+
+.lables{ 
+  font-weight: bold;
+}

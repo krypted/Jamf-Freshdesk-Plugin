@@ -1,0 +1,20 @@
+{
+    "url": {
+      "display_name": "Jamf Pro URL",
+      "description": "Please enter the Jamf Pro URL. Example: https://your_domain.jamfcloud.com",
+      "type": "url",
+      "required": true
+    },
+    "username": {
+        "display_name": "User Name",
+        "description": "Please enter the User Name",
+        "type": "text",
+        "required": true
+    },
+    "password": {
+        "display_name": "Password",
+        "description": "Please enter the Password",
+        "type": "text",
+        "required": true
+    }    
+}
