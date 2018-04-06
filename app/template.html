@@ -4,15 +4,19 @@
     <script src="https://static.freshdev.io/fdk/2.0/assets/fresh_client.js"></script>
     <script src="app.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="https://static.freshdev.io/fdk/2.0/assets/freshdesk.css">  
+    <link rel="stylesheet" type="text/css" href="https://static.freshdev.io/fdk/2.0/assets/freshdesk.css">
   </head>
   <body>
     <div class="fw-widget-wrapper"> 
       <div class="logo"></div>
+ 
+      <p> 
+        <input placeholder="Enter Serial Number" maxlength="120" autofocus="" id="serialNumberInp" class="jamfSerialNumber" style="height: 23px; overflow: hidden;">
 
-      <p> <span class="lables"> Serial Number: </span></p>
-      <p> <input id="serialNumberInp"> </p>
-      <p> <input id="getJamfDetails" type="button" value="Get Jamf Details"> </p>
+        <button id="getJamfDetails" class="jamfSearchButton">
+          <img id="jamfSearchIcon" src="icons8-search.svg" alt="Search">
+        </button> 
+      </p>
 
       <div id="computerDetails"> 
         <p> <span class="lables"> Assigned User : </span><span id="cAssignedUser" class="text"></span> </p>
@@ -21,7 +25,8 @@
         <p> <span class="lables"> Last Check-in : </span><span id="cLastCheckedIn" class="text"></span> </p>
         <p> <span class="lables"> Last User : </span><span id="cLastUser" class="text"></span> </p>
         <p> <span class="lables"> Uptime : </span> <span id="cUptime" class="text"></span> </p>
-        <a id="cViewDeviceURL" href="#" target="_blank"> View Device in Jamf Pro </a>
+        <p> <svg width="12" height="11" viewBox="0 0 12 11" xmlns="http://www.w3.org/2000/svg"><title>Combined Shape</title><path d="M6.652.56a.537.537 0 0 1-.524.548H1.464a.445.445 0 0 0-.434.455v7.9c0 .252.194.456.434.456h8.042c.24 0 .434-.204.434-.455v-4.37c0-.304.235-.55.524-.55.289 0 .536.246.536.55v5.067c0 .464-.358.839-.8.839H.8c-.442 0-.8-.375-.8-.839V.84C0 .376.358 0 .8 0h5.328c.29 0 .524.257.524.56zm-.475 5.253c-.269-.269-.216-.653.054-.922l2.886-2.884a.395.395 0 0 0 0-.558L8.341.674A.395.395 0 0 1 8.621 0l2.681.092c.335 0 .606.27.606.606L12 3.378a.395.395 0 0 1-.674.278l-.76-.759a.397.397 0 0 0-.559 0L7.121 5.782c-.269.269-.674.3-.944.031z" fill="#9EA1A9" fill-rule="evenodd"></path></svg>
+        <a id="cViewDeviceURL" href="#" target="_blank"> View Device in Jamf Pro </a></p>
       </div>
  
       <div id="mobileDetails"> 
@@ -31,7 +36,8 @@
         <p> <span class="lables"> Last Check-in : </span><span id="mLastCheckedIn" class="text"></span> </p>
         <p> <span class="lables"> Last User : </span><span id="mLastUser" class="text"></span> </p>
         <p> <span class="lables"> Uptime : </span><span id="mUptime" class="text"></span> </p>
-        <a id="mViewDeviceURL" href="#" target="_blank"> View Device in Jamf Pro </a>
+        <p> <svg width="12" height="11" viewBox="0 0 12 11" xmlns="http://www.w3.org/2000/svg"><title>Combined Shape</title><path d="M6.652.56a.537.537 0 0 1-.524.548H1.464a.445.445 0 0 0-.434.455v7.9c0 .252.194.456.434.456h8.042c.24 0 .434-.204.434-.455v-4.37c0-.304.235-.55.524-.55.289 0 .536.246.536.55v5.067c0 .464-.358.839-.8.839H.8c-.442 0-.8-.375-.8-.839V.84C0 .376.358 0 .8 0h5.328c.29 0 .524.257.524.56zm-.475 5.253c-.269-.269-.216-.653.054-.922l2.886-2.884a.395.395 0 0 0 0-.558L8.341.674A.395.395 0 0 1 8.621 0l2.681.092c.335 0 .606.27.606.606L12 3.378a.395.395 0 0 1-.674.278l-.76-.759a.397.397 0 0 0-.559 0L7.121 5.782c-.269.269-.674.3-.944.031z" fill="#9EA1A9" fill-rule="evenodd"></path></svg>
+        <a id="mViewDeviceURL" href="#" target="_blank"> View Device in Jamf Pro </a></p>
       </div>
 
       <div id="noDataDiv">

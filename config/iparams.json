@@ -1,20 +1,182 @@
 {
-    "url": {
-      "display_name": "Jamf Pro URL",
+    "url_1": {
+      "display_name": "Jamf Pro URL (Account 1)",
       "description": "Please enter the Jamf Pro URL. Example: https://your_domain.jamfcloud.com",
       "type": "url",
       "required": true
     },
-    "username": {
-        "display_name": "User Name",
+    "username_1": {
+        "display_name": "User Name (Account 1)",
         "description": "Please enter the User Name",
         "type": "text",
-        "required": true
+        "required": false
     },
-    "password": {
-        "display_name": "Password",
+    "password_1": {
+        "display_name": "Password (Account 1)",
         "description": "Please enter the Password",
         "type": "text",
-        "required": true
-    }    
+        "required": false
+    }, 
+    "url_2": {
+        "display_name": "Jamf Pro URL (Account 2)",
+        "description": "Please enter the Jamf Pro URL. Example: https://your_domain.jamfcloud.com",
+        "type": "url",
+        "required": false
+      },
+      "username_2": {
+          "display_name": "User Name (Account 2)",
+          "description": "Please enter the User Name",
+          "type": "text",
+          "required": false
+      },
+      "password_2": {
+          "display_name": "Password (Account 2)",
+          "description": "Please enter the Password",
+          "type": "text",
+          "required": false
+      }, 
+      "url_3": {
+        "display_name": "Jamf Pro URL (Account 3)",
+        "description": "Please enter the Jamf Pro URL. Example: https://your_domain.jamfcloud.com",
+        "type": "url",
+        "required": false
+      },
+      "username_3": {
+          "display_name": "User Name (Account 3)",
+          "description": "Please enter the User Name",
+          "type": "text",
+          "required": false
+      },
+      "password_3": {
+          "display_name": "Password (Account 3)",
+          "description": "Please enter the Password",
+          "type": "text",
+          "required": false
+      }, 
+      "url_4": {
+        "display_name": "Jamf Pro URL (Account 4)",
+        "description": "Please enter the Jamf Pro URL. Example: https://your_domain.jamfcloud.com",
+        "type": "url",
+        "required": false
+      },
+      "username_4": {
+          "display_name": "User Name (Account 4)",
+          "description": "Please enter the User Name",
+          "type": "text",
+          "required": false
+      },
+      "password_4": {
+          "display_name": "Password (Account 4)",
+          "description": "Please enter the Password",
+          "type": "text",
+          "required": false
+      }, 
+      "url_5": {
+        "display_name": "Jamf Pro URL (Account 5)",
+        "description": "Please enter the Jamf Pro URL. Example: https://your_domain.jamfcloud.com",
+        "type": "url",
+        "required": false
+      },
+      "username_5": {
+          "display_name": "User Name (Account 5)",
+          "description": "Please enter the User Name",
+          "type": "text",
+          "required": false
+      },
+      "password_5": {
+          "display_name": "Password (Account 5)",
+          "description": "Please enter the Password",
+          "type": "text",
+          "required": false
+      }, 
+      "url_6": {
+        "display_name": "Jamf Pro URL (Account 6)",
+        "description": "Please enter the Jamf Pro URL. Example: https://your_domain.jamfcloud.com",
+        "type": "url",
+        "required": false
+      },
+      "username_6": {
+          "display_name": "User Name (Account 6)",
+          "description": "Please enter the User Name",
+          "type": "text",
+          "required": false
+      },
+      "password_6": {
+          "display_name": "Password (Account 6)",
+          "description": "Please enter the Password",
+          "type": "text",
+          "required": false
+      }, 
+      "url_7": {
+        "display_name": "Jamf Pro URL (Account 7)",
+        "description": "Please enter the Jamf Pro URL. Example: https://your_domain.jamfcloud.com",
+        "type": "url",
+        "required": false
+      },
+      "username_7": {
+          "display_name": "User Name (Account 7)",
+          "description": "Please enter the User Name",
+          "type": "text",
+          "required": false
+      },
+      "password_7": {
+          "display_name": "Password (Account 7)",
+          "description": "Please enter the Password",
+          "type": "text",
+          "required": false
+      }, 
+      "url_8": {
+        "display_name": "Jamf Pro URL (Account 8)",
+        "description": "Please enter the Jamf Pro URL. Example: https://your_domain.jamfcloud.com",
+        "type": "url",
+        "required": false
+      },
+      "username_8": {
+          "display_name": "User Name (Account 8)",
+          "description": "Please enter the User Name",
+          "type": "text",
+          "required": false
+      },
+      "password_8": {
+          "display_name": "Password (Account 8)",
+          "description": "Please enter the Password",
+          "type": "text",
+          "required": false
+      }, 
+      "url_9": {
+        "display_name": "Jamf Pro URL (Account 9)",
+        "description": "Please enter the Jamf Pro URL. Example: https://your_domain.jamfcloud.com",
+        "type": "url",
+        "required": false
+      },
+      "username_9": {
+          "display_name": "User Name (Account 9)",
+          "description": "Please enter the User Name",
+          "type": "text",
+          "required": false
+      },
+      "password_9": {
+          "display_name": "Password (Account 9)",
+          "description": "Please enter the Password",
+          "type": "text",
+          "required": false
+      }, 
+      "url_10": {
+        "display_name": "Jamf Pro URL (Account 10)",
+        "description": "Please enter the Jamf Pro URL. Example: https://your_domain.jamfcloud.com",
+        "type": "url",
+        "required": false
+      },
+      "username_10": {
+          "display_name": "User Name (Account 10)",
+          "description": "Please enter the User Name",
+          "type": "text",
+          "required": false
+      },
+      "password_10": {
+          "display_name": "Password (Account 10)",
+          "description": "Please enter the Password",
+          "type": "text",
+          "required": false
+      }
 }

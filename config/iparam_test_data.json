@@ -1,5 +1,8 @@
 {
-    "url": "https://kryptedjamf.jamfcloud.com",
-    "username": "user",
-    "password": "pass"    
+    "url_1": "https://tryitout.jamfcloud.com",
+    "username_1": "",
+    "password_1": "",
+    "url_2": "https://kryptedjamf.jamfcloud.com",
+    "username_2": "nazar",
+    "password_2": "nazar1"  
 }

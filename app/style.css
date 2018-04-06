@@ -4,9 +4,24 @@
   background-size: contain;
   background-color: #434a54;
   height: 25px;
-  margin-top: 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .lables{ 
   font-weight: bold;
+}
+
+.jamfSearchButton{
+  border: 0;
+  background: 0 0;
+  position: absolute;
+}
+
+.jamfSerialNumber{
+  border: none;
+  resize: none;
+  width: 80%;
+  background-color: transparent;
+  border-bottom: 1px #dadfe3 solid;
 }
