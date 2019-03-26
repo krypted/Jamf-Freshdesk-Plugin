@@ -2,23 +2,11 @@
 
 ## Description
 
-FreshDesk market place app to get the Computer / Mobile Device details from Jamf|PRO.
-
-Agents need to provide the Jamf|PRO domain(URL, Example: https://tryitout.jamfcloud.com), User name & Password while installing the app. Please note Multiple Jamf accounts can be configured during installation.
+Freshdesk market place app to get the Computer / Mobile Device details from Jamf Pro. Agents need to provide the Jamf Pro url or domain name, user name, and password while installing the app. Please note that multiple Jamf accounts can be configured during installation.
 
 Once installed, The application can be accessed by clicking the Jamf|PRO icon in Ticket Side bar (Right side of the ticket details page).
 
-![Freshdesk Tickets](page.png)
-
-Agents can get the details from Jamf|PRO by providing the serial number. Following are the sample screenshots.
-
-![Freshdesk Tickets](image1.png) ![Freshdesk Tickets](image2.png)
-
-![Freshdesk Tickets](image3.png) ![Freshdesk Tickets](image4.png)
-
-Note: Loading Icon will be displayed while search is in progress... 
-
-![Freshdesk Tickets](image5.png)
+Agents can get the details from Jamf Pro by providing the serial number. 
 
 ### Folder structure explained
 
