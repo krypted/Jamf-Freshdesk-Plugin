@@ -1,4 +1,4 @@
-# FreshDesk - Jamf|PRO
+# FreshDesk plugin for Jamf Pro 
 
 ## Description
 
